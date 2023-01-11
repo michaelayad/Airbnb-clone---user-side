@@ -209,7 +209,7 @@ const Signup = (props) => {
                             <div>
                                 <div className={` input-container ${(errors.passwordError ? "border-danger shadow-none" : "")}`}>
 
-                                    <input type="text"
+                                    <input type="password"
                                         className='shadow-none'
                                         value={user.password}
                                         name="password"
