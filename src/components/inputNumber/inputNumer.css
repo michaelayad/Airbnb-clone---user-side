@@ -1,0 +1,54 @@
+.numberInputDiv {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.numberInputDiv span {
+    padding: 0.5rem;
+    border-radius: 99px;
+    display: flex;
+    width: fit-content;
+}
+
+.numberInputDiv label {
+    font-size: 1rem;
+    display: block;
+    margin-right: 1rem;
+}
+
+.numberInputDiv span input,
+.numberInputDiv span button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    outline: none;
+}
+
+.numberInputDiv span button {
+    text-align: center;
+    width: 32px;
+    height:32px;
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 99px;
+
+    color: #2e2e48;
+}
+
+.numberInputDiv span input {
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    width: 3rem;
+}
+
+.numberInputDiv span input:focus{
+    border: none
+}
+
+@media (max-width: 36rem) {
+    .numberInputDiv span {
+        margin-left: auto;
+        padding: 0.25rem;
+    }
+}

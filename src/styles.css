@@ -1,0 +1,16 @@
+.link-underLine-hover {
+  text-decoration: none;
+}
+
+.link-underLine-hover:hover {
+  text-decoration: underline;
+}
+
+.element-disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.element-disabled-wrap{
+  cursor: not-allowed;
+}
+
